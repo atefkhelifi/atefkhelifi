@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 260" width="1180" height="260" role="img" aria-label="Atef Khelifi - Fullstack Engineer">
+  <title>Atef Khelifi - Fullstack Engineer</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1180" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1d33" />
+      <stop offset="1" stop-color="#07080e" />
+    </linearGradient>
+    <linearGradient id="mark" x1="14" y1="50" x2="50" y2="14" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9d7bff" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
+    <linearGradient id="roleGrad" x1="200" y1="0" x2="640" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9d7bff" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
+    <radialGradient id="halo" cx="150" cy="80" r="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.30" />
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="frame">
+      <rect width="1180" height="260" rx="24" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1180" height="260" fill="url(#tile)" />
+    <circle cx="150" cy="80" r="320" fill="url(#halo)" />
+  </g>
+
+  <!-- Monogram: identical path geometry to the site favicon, scaled 2.2x -->
+  <g transform="translate(49.6,59.6) scale(2.2)" fill="none" stroke="url(#mark)"
+     stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 48 L32 16 L48 48" />
+    <path d="M25.5 37 L38.5 37" />
+  </g>
+
+  <g font-family="Inter, 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="200" y="118" font-size="46" font-weight="700" fill="#f5f6fa">Atef Khelifi</text>
+    <text x="200" y="158" font-size="23" font-weight="600" fill="url(#roleGrad)">Fullstack Engineer</text>
+    <text x="200" y="194" font-size="16" fill="#8b90a6">Angular &#183; Node.js &#183; Spring Boot &#183; Microservices &#183; CI/CD</text>
+  </g>
+
+  <g>
+    <rect x="860" y="108" width="260" height="44" rx="22" fill="#ffffff" fill-opacity="0.05" stroke="#22d3ee" stroke-opacity="0.35" />
+    <circle cx="884" cy="130" r="5" fill="#22d3ee" />
+    <text x="904" y="136" font-family="Inter, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="16" fill="#b9c0d4">Open to new opportunities</text>
+  </g>
+</svg>
